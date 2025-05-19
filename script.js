@@ -153,8 +153,8 @@
 
             document.querySelector('aside').style.display = 'flex';
 
-            console.log("Setting date to:", date);
-            console.log(document.getElementById('selectedDate'));
+            console.log("Setting date to:", date); //I am debugging! -- jd
+            console.log(document.getElementById('selectedDate')); //I am debugging! -- jd
           }
         },
         scales: {
@@ -175,7 +175,6 @@ let currentDay;
 
 document.addEventListener('DOMContentLoaded', function () {
   const attendanceData = {
-    // your attendance data
   };
 
   const presentCounts = [];
@@ -228,8 +227,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
           document.querySelector('aside').style.display = 'flex';
 
-          console.log("Setting date to:", date);
-          console.log(document.getElementById('selectedDate'));
+          console.log("Setting date to:", date); //I am debugging! -- jd
+          console.log(document.getElementById('selectedDate')); //I am debugging! -- jd
         }
       },
       scales: {
@@ -248,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function downloadCSV() {
-  console.log("Yeah, you're clicking the button!!!");
+  console.log("Yeah, you're clicking the button!!!"); //I am debugging! -- jd
 
   const dates = Object.keys(attendanceData);
   if (dates.length === 0) {
@@ -292,5 +291,5 @@ function hideSidebar() {
   sidebar.style.display = "none";
 }
 
-console.table(attendanceData);
+console.table(attendanceData); //I am debugging! -- jd
 
