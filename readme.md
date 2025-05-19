@@ -13,7 +13,7 @@ The resources used in this project:
 - [W3Schools Javascript](https://www.w3schools.com/js/default.asp)
 - [MySQL Documentation](https://www.mysql.com/)
 
-This is actually a revision of the actual [web application](https://github.com/Tatine-Fraxter23/Web-app) product by [Jideeh](https://github.com/Jideeh1)
+This is actually a revision by [Jideeh](https://github.com/Jideeh1) of the actual [web application](https://github.com/Tatine-Fraxter23/Web-app) product.
 
 > [!NOTE]
 > This repository is made by one freshman and one sophomore, expect chaotic compilation in its content.
