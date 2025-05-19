@@ -7,16 +7,18 @@
 
 html {
     background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navibar {
-    background-color: #31383d;
     justify-content: center;
     width: max-content;
-    display: flex;
     margin: 3vh auto;
-
-    padding: 1.5cqh 1.5cqw;
+    display: flex;
+    
+    background-color: #31383d;
+    padding: 1cqh 1.5cqw;
     border-radius: 40px;
     gap: 3%;
 }
@@ -36,11 +38,13 @@ html {
 }
 
 .nav-button:hover {
+    transform: scale(0.95);
     background-color: #3c96f5;
     color: #31383d;
 
 }
 .nav-button:active {
+    transform: scale(0.90);
     background-color: #3c96f5;
     color: #31383d;
 }
@@ -52,6 +56,7 @@ html {
 
 .card {
     transform: translate(-50%, -50%);
+    height: max-content;
     width: max-content;
     position: absolute;
     display: flex;
@@ -59,15 +64,16 @@ html {
     background-color: #ededeb;
     border-radius: 10px;
     padding: 2cqh 1cqw;
-    height: 80vh;
     left: 50%;
-    top: 50%;
+    top: 55%;
 
     .graph {
         background-color: white;
-        border-radius: 10px;
         cursor: pointer;
-        width: 140vh;
+
+        border-radius: 10px;
+        padding: 1cqw 0;
+        width: 130vh;
     }
 
     aside {
@@ -92,13 +98,12 @@ html {
             list-style: none;
         }
 
-        .download {
+        .download {            
             border: transparent;
             height: max-content;
             width: max-content;
             text-wrap: nowrap;
             cursor:pointer;
-            transition: transform 1s ease-in-out;
 
             background-color: #3c96f5;
             border-radius: 20px;
@@ -110,8 +115,9 @@ html {
     }
 }
 
-.download:hvoer {
-    transform: scale(1.1);
+.download:hover {
+    transform: scale(0.95);
+    opacity: .9;
 }
 
 .canvas-header {
@@ -138,4 +144,125 @@ html {
 
 .studentLists {
     background-color: red;
+}
+
+.button-con {
+    flex-direction: column;
+    display: flex;
+    gap: .5cqw;
+
+    .hide {
+            border: transparent;
+            height: max-content;
+            width: 100%;
+            cursor:pointer;
+
+            background-color: #d6d7d6;
+            border-radius: 20px;
+            padding: 1cqh 1cqw;
+            color: #8f8f8f;
+            font-size: 1cqw;
+            margin: 0 auto ;
+    }
+
+    .hide:hover {
+        transform: scale(0.95);
+    }
+}
+
+.back-button {
+    background-color: #31383d;
+    border-radius: 100%;
+    padding: 1.5cqh;
+    right: 20%;
+    top: 3.7vh;
+    
+    height: max-content;
+    position: absolute;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #3c96f5;
+    transform: scale(0.95);
+    color: #31383d;
+}
+
+.back-button:active {
+    transform: scale(0.90);
+}
+
+.section-list {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    list-style: none;
+    display: flex;
+
+    gap: 5cqw;
+    left: 50%;
+    top: 50%;
+        
+        .sections {
+            flex-direction: column;
+            width: max-content;
+            display: flex;
+
+            gap: 10px;
+
+            .section-button {
+                text-decoration: none;
+                text-wrap: nowrap;
+                text-align: center;
+                height: 20px;
+                
+                background-color: #31383d;
+                color: rgb(240, 240, 255);
+                border-radius: 50px;
+                padding: 1cqh 1cqw;
+                width: 100%;
+            }
+        }
+}
+
+.section-button:hover {
+    transform: scale(0.95);
+    background-color: #3c96f5 !important;
+    color: #31383d !important;
+}
+
+.section-header {
+    text-align: center;
+    padding: 5cqh 0;
+}
+
+.name-list {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    list-style: none;
+    display: flex;
+
+    gap: 5cqw;
+    left: 50%;
+    top: 60%;
+        
+        .names {
+            flex-direction: column;
+            width: max-content;
+            display: flex;
+
+            gap: 10px;
+
+            .section-button {
+                text-decoration: none;
+                text-wrap: nowrap;
+                text-align: center;
+                height: 20px;
+                
+                background-color: #31383d;
+                color: rgb(240, 240, 255);
+                border-radius: 50px;
+                padding: 1cqh 1cqw;
+                width: 100%;
+            }
+        }
 }

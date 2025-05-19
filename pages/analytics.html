@@ -4,12 +4,19 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../global.css">
-    <title>Dashboard</title>
+    <link rel="icon" href="../assets/icon.jpg">
+    <title>Analytics</title>
     <meta charset="UTF-8">
 </head>
 
 <body>
-    
+    <nav class = "navibar">
+        <a class="nav-button" href="handledSections.html">Handled Sections</a></button></li>
+        <a class="nav-button" href="">Schedule</a></button></li>
+        <a class="nav-button" href="analytics.html">Attendance Report</a></button></li>
+
+        <img src="../assets/return.svg" onclick="location.href='main.html'" class="back-button">
+    </nav>
     
     <div class="card">
         <div class="graph">
@@ -22,7 +29,10 @@
                 <h4 class="list-header">Student Attendance on: <span id="selectedDate"></span></h4>
             </div>
             <ul id="studentNames"></ul>
-            <button class="download" onclick="downloadCSV()">Download Attendance Report (CSV)</button>
+            <div class="button-con">
+                <button class="hide" onclick="hideSidebar()">Hide Sidebar</button>
+                <button class="download" onclick="downloadCSV()">Download Attendance Report (CSV)</button>
+            </div>
         </aside>
     </div>
 

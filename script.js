@@ -286,5 +286,11 @@ function downloadCSV() {
   document.body.removeChild(link);
 }
 
+function hideSidebar() {
+  const sidebar = document.querySelector('aside');
+
+  sidebar.style.display = "none";
+}
+
 console.table(attendanceData);
 
