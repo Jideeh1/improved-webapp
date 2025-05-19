@@ -8,14 +8,11 @@ This project is an extension of the [Flutter Project](https://github.com/Tatine-
 
 This in-development application is an attempt of innovation to restructure ICCT's traditional attendance tracking system. By leveraging technology, our goal is to replace the traditional ways of recording attendance by hand with a more efficient and reliable approach. The development of this application reduces the susceptibility to errors, and boosts the accuracy and consistency of recording attendance. With added features for ICCT to leverage, we have added a scheduler in this application's calendar system, along with report cards and its document generation.
 
-This developing application is being made with Flutter. A few resources to get you started if this is your first Flutter project:
+The resources used in this project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [W3Schools Javascript](https://www.w3schools.com/js/default.asp)
+- [MySQL Documentation](https://www.mysql.com/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
 
 > [!NOTE]
